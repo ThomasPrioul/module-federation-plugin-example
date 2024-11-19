@@ -9,20 +9,19 @@ export const APP_ROUTES: Routes = [
   {
     path: '',
     component: HomeComponent,
-    pathMatch: 'full',
+    pathMatch: 'full'
   },
 
   // Add this route:
   {
     path: 'flights',
-    loadComponent: () =>
-      loadRemoteModule('mfe1', './Component').then((m) => m.AppComponent),
+    loadComponent: () => loadRemoteModule('mfe1', './Component').then((m) => m.AppComponent)
   },
 
   {
     path: '**',
-    component: NotFoundComponent,
-  },
+    component: NotFoundComponent
+  }
 
   // DO NOT insert routes after this one.
   // { path:'**', ...} needs to be the LAST one.

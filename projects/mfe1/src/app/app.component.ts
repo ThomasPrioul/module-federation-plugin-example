@@ -5,20 +5,16 @@ import { AuthService } from '@demo/auth';
   selector: 'app-root',
   standalone: true,
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-
-  constructor() { }
-
   auth = inject(AuthService);
 
   ngOnInit(): void {
-    console.log('userName', this.auth.userName);
+    console.warn('userName', this.auth.userName);
   }
 
   search(): void {
     alert('Not implemented in this demo!');
   }
-
 }

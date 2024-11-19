@@ -5,17 +5,14 @@ import { AuthService } from '@demo/auth';
 @Component({
   standalone: true,
   selector: 'app-root',
-  imports: [
-    RouterModule
-  ],
+  imports: [RouterModule],
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'shell';
   auth = inject(AuthService);
+  title = 'shell';
 
   constructor() {
     this.auth.userName = 'Jane Doe';
   }
 }
-

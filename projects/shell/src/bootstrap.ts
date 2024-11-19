@@ -10,8 +10,5 @@ if (environment.production) {
 }
 
 bootstrapApplication(AppComponent, {
-  providers: [
-    provideRouter(APP_ROUTES)
-  ]
+  providers: [provideRouter(APP_ROUTES)]
 });
-  

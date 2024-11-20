@@ -220,4 +220,5 @@
   "eslint.useFlatConfig": true,
   "eslint.format.enable": true,
   "eslint.ignoreUntitled": true,
+  "explorer.excludeGitIgnore": true
 }

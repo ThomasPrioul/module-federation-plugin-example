@@ -14,8 +14,13 @@ export const APP_ROUTES: Routes = [
 
   // Add this route:
   {
-    path: 'flights',
-    loadComponent: () => loadRemoteModule('mfe1', './Component').then((m) => m.AppComponent)
+    path: 'mfe1',
+    loadChildren: () => loadRemoteModule('mfe1', './routes').then((m) => m.APP_ROUTES)
+  },
+
+  {
+    path: 'mfe2',
+    loadComponent: () => loadRemoteModule('mfe2', './Component').then((m) => m.AppComponent)
   },
 
   {

@@ -1,0 +1,28 @@
+{
+  "recommendations": [
+    // git
+    "mhutchie.git-graph",
+
+    // lint
+    "dbaeumer.vscode-eslint",
+    "aljazsim.tsco",
+    "YoavBls.pretty-ts-errors",
+    
+    // Angular
+    "Angular.ng-template",
+    "cyrilletuzi.angular-schematics",
+    
+    // SCSS, CSS & tailwind
+    "ecmel.vscode-html-css",
+    "mrmlnc.vscode-scss",
+    "bradlc.vscode-tailwindcss",
+    "pucelle.vscode-css-navigation",
+    
+    // Spell check
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-french"
+  ],
+  "unwantedRecommendations": [
+    "esbenp.prettier-vscode"
+  ]
+}

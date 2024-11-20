@@ -5,7 +5,13 @@
     "paths": {
       "@demo/auth": [
         "projects/auth/src/index.ts"
-      ]
+      ],
+      "@mfe1": [
+        "projects/mfe1/src/index.ts"
+      ],
+      "@mfe2": [
+        "projects/mfe2/src/index.ts"
+      ],
     },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",

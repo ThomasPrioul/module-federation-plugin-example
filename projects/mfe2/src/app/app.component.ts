@@ -2,6 +2,13 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
+  selector: 'mfe2-component',
+  template: '<div></div>'
+})
+export class MonComponentMFE2Component {
+}
+
+@Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
